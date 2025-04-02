@@ -17,39 +17,3 @@ h2, h3 {
 p, li, button, table, a {
     font-family: 'Roboto';
 }
-
-.produit-titre,
-.produit-ingredients {
-    margin: 3em;
-}
-
-.produit {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-width: 90%;
-}
-
-.photo-produit {
-    max-width: 400px;
-    margin-right: 2em;
-    border-radius: 20%;
-}
-
-h1, h2, h3 {
-    font-family: 'Lobster';
-}
-
-h1 {
-    display: flex;
-    font-size: 4em;
-    justify-content: center;
-}
-
-h2, h3 {
-    font-size: 2.5em;
-}
-
-p, li, button, table, a {
-    font-family: 'Roboto';
-}
