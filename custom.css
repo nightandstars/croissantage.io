@@ -41,7 +41,9 @@ h1, h2, h3 {
 }
 
 h1 {
+    display: flex;
     font-size: 4em;
+    justify-content: center;
 }
 
 h2, h3 {
