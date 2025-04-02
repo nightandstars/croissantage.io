@@ -2,6 +2,22 @@
     background-color: #1d292f;
 }
 
+h1, h2, h3, p {
+    font-family: 'Lobster';
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2, h3 {
+    font-size: 2.5em;
+}
+
+p, li, button, table, a {
+    font-family: 'Roboto';
+}
+
 .produit-titre,
 .produit-ingredients {
     margin: 3em;
@@ -18,20 +34,4 @@
     max-width: 400px;
     margin-right: 2em;
     border-radius: 20%;
-}
-
-h1, h2, h3, p {
-    font-family: 'Lobster';
-}
-
-h1 {
-    font-size: 4em;
-}
-
-h2, h3 {
-    font-size: 2.5em;
-}
-
-p, li, button, table, a {
-    font-family: 'Roboto';
 }
