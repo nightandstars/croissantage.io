@@ -2,13 +2,9 @@
     background-color: #1d292f;
 }
 
-body:not(nav) {
-    margin: 0 10vw;
-}
-
-.navbar {
-    position: sticky;
-    margin: 0 0;
+.produit-titre,
+.produit-ingredients {
+    margin: 3em;
 }
 
 .produit {
@@ -20,8 +16,6 @@ body:not(nav) {
 
 .photo-produit {
     max-width: 400px;
-    margin-top: 2em;
     margin-right: 2em;
-    margin-bottom: 2em;
     border-radius: 20%;
 }
