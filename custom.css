@@ -33,7 +33,7 @@ p, li, button, table, a {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.4rem;
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
     margin: auto;
   }  
   .sidebar{
@@ -51,11 +51,12 @@ p, li, button, table, a {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    color: #60949F;
   }
   .bg-light{
     display:flex;
     background-color: #60949F;
-    color: #40949F;
+    color: #60949F;
     justify-content: center;
     align-items: stretch;
     text-align: center;
@@ -77,8 +78,5 @@ p, li, button, table, a {
   }
   a{
     color: white;
-  }
-  .table th, .table td {
-    color: #40949F;
   }
   
