@@ -68,4 +68,7 @@ p, li, button, table, a {
   a{
     color: white;
   }
+  .table th, .table td {
+    color: #40949F;
+  }
   
