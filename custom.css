@@ -34,6 +34,7 @@ p, li, button, table, a {
     font-size: 1.4rem;
     width: 100%;
     min-height: 100vh;
+    margin: auto;
   }  
   .sidebar{
     width: 25%;
@@ -51,14 +52,16 @@ p, li, button, table, a {
     align-items: center;
     text-align: center;
   }
-     .bg-light{
+  .bg-light{
+    display:flex;
     background-color: #60949F;
     color: #40949F;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     text-align: center;
     border: 2px solid white;
   } 
+
   .m {
     margin-top: 3 !important;
     margin-bottom: 3;
@@ -67,3 +70,16 @@ p, li, button, table, a {
 .opacity-9 {
   opacity: .9;
 }
+
+  h2.bg-light{
+    background-color: #40949F;
+    border: none;
+  }
+  a{
+    color: white;
+  }
+  .table th, .table td {
+    color: #40949F;
+  }
+  
+>>>>>>> a32dff5e40a89f08aa5f5ce3c7a229ab68d48b95
