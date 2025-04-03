@@ -13,18 +13,20 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="custom.css">
-    <title>CV</title>
+    <title>Document</title>
 </head>
 
-<body>
+<body id="top">
 
     <!-- NAVIGATION -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light color-nav">
         <div class="container-fluid">
-            <a class="navbar-brand text-light" href="index.html">Accueil</a>
-
+            <a class="navbar-brand text-light" href="#">Accueil</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -33,22 +35,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-light " aria-current="page" href="equipe.html">Team</a>
+                        <a class="nav-link text-light" href="#apropos">A propos</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link active text-light " aria-current="page" href="contact alina.html">Contact</a>
+                        <a class="nav-link text-light" href="#produits">Produits</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="hobby alina.html">Hobby</a>
+                        <a class="nav-link text-light" href="catalogue.html">Catalogue</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                        <a class="nav-link text-light" href="contact.html">Contact</a>
                     </li>
-
-
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="equipe.html">Team</a>
+                    </li>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -58,111 +58,57 @@
         </div>
     </nav>
 
+    <!-- ACTIVATES BUTTON MENU DROPDOWN  FOR MOBILE VERSION-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- FLEXBOX -->
 
-    <div class="container-fluid bg-light vh-100 d-flex mt-5 shadow">
 
-        <!-- LEFT SIDE -->
+    <!-- HEADER   -->
 
-        <div class="d-flex flex-column flex-grow-1 bg-primary p-3 overflow-auto ">
-            <h1 class=" text-center text-white">Développeuse web</h1>
+    <div class="container text-center d-flex">
+        <div class="position-relative d-inline-block">
+            <img src="images/notre-equipe-photo.png" class="img-fluid" alt="photo de notre equipe">
 
-            <h2 class="text-white"> Compétences</h2>
-            <ul class="list-group  mx-auto width-auto ms-0 mt-3 mb-4">
-                <li class="list-group-item list-group-item-dark fw-bold"><i>Autonome</i></li>
-                <li class="list-group-item list-group-item-dark fw-bold"><i>Adaptive</i></li>
-                <li class="list-group-item list-group-item-dark fw-bold"><i>Dynamique</i></li>
-                <li class="list-group-item list-group-item-dark fw-bold"><i>Travail en équipe</i></li>
-                <li class="list-group-item list-group-item-dark fw-bold"><i>Sens des responsabilités</i></li>
-            </ul>
-
-            <hr class="hr" />
-
-            <h2 class="mt-3 text-white">Expériences Professionnelles</h2>
-            <table class="table table-striped table-dark mt-3 mb-4">
-                <thead>
-                    <tr>
-                        <th scope="col">Entreprise</th>
-                        <th scope="col">Periode</th>
-                        <th scope="col">Position</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Campus Numérique</td>
-                        <td>Mars 2025 - Decembre 2026</td>
-                        <td>Développeur avancé</td>
-                    </tr>
-                    <tr>
-                        <td>Emera</td>
-                        <td>Decembre 2023 - Septembre 2024</td>
-                        <td>ASH</td>
-                    </tr>
-                    <tr>
-                        <td>BUT Informatique</td>
-                        <td>Septembre 2023 - Juin 2024</td>
-                        <td>Etudiante</td>
-                    </tr>
-                    <tr>
-                        <td>8 à huit</td>
-                        <td>Aout 2023 - Septembre 2023</td>
-                        <td>Employe polyvalent</td>
-                    </tr>
-                </tbody>
-
-            </table>
-
-            <hr class="hr" />
-
-            <h2 class="mt-3 text-white">Etudes</h2>
-
-            <p class="h4 text-white mt-3">Campus numerique</p>
-            <p class="h6 text-white">Fromation développeur avancé Mars 2025 - Decembre 2026</p>
-
-            <p class="h4 text-white mt-3">IUT Annecy BUT Informatique</p>
-            <p class="h6 text-white">étudiante en 1er année à l'IUT Septembre 2023 - Juin 2024</p>
-
-            <p class="h4 text-white mt-3">Lycée Gabriel Fauré</p>
-            <p class="h6 text-white">Mai 2022 - Juin 2023</p>
-
-            
-            <p class="h4 text-white mt-3">L'école 27 de ville Soumy</p>
-            <p class="h6 text-white">2011 - 2022</p>
-
+            <div
+                class="position-absolute bottom-0 w-50 start-50 rounded-pill translate-middle-x bg-info text-white text-center py-2 d-flex justify-content-center">
+                <h1 class="text-wrap">
+                    Développeurs en formation
+                </h1>
+            </div>
         </div>
+    </div>
 
 
+    <!-- A PROPOS      -->
+    <div class="container mt-5" id="apropos">
+        <h2 class="">A propos</h2>
 
-        <!-- RIGHT SIDE -->
+        <div class="container mt-5">
+            <div class="d-flex">
+                <div class="col px-4">
+                    <p> La formation Développeur Avancé est un parcours de 21 mois formant aux métiers du
+                        développement et à la conception de logiciels et d’applications informatiques. Le développeur
+                        avancé
+                        est un expert technique en informatique. Il conçoit, développe et intègre des applications
+                        multicouches dans le domaine des systèmes d’information, du mobile et du web, pour un client ou
+                        une
+                        entreprise, selon des besoins fonctionnels et un cahier des charges.</p>
+                </div>
+                <div class="vr" style="height: 250px; width: 2px;"></div>
+                <div class="col ">
+                    <p class="h4 px-4">Nos valeurs :</p>
+                    <ul class="mt-3">
+                        <li>Autonomie</li>
+                        <li>Esprit d’équipe</li>
+                        <li>Pédagogie inversée</li>
+                    </ul>
+                </div>
 
-        <div class="d-flex flex-grow-3 overflow-auto p-3 bg-info flex-column align-items-center ">
-            <img src="images/photo.png" alt="photo d'alina " class="rounded" style="height: 250px; width: 210px;">
+            </div>
+        </div>
+    </div>
 
-            <h2 >Alina Dvornyk</h2>
-            <p class="h2">20 ans</p>
-            <p class="h4"> Adresse : 10 Avenue </p>
-            <p class="h4"> Mail : <a href="mailto:alina.dvornyk@le-campus-numerique.fr"
-                    target="_blank">alina.dvornyk@le-campus-numerique.fr</a> </p>
 
-            <h2 class="mt-3">Hobbies</h2>
-            <ol class="list-group list-group-numbered mt-3">
-                <li class="list-group-item bg-light text-dark fw-semibold">Boxe thai</li>
-                <li class="list-group-item bg-light text-dark fw-semibold">Livres</li>
-                <li class="list-group-item bg-light text-dark fw-semibold">Cinema</li>
-            </ol>
-
-            <h2 class="mt-3">Langues</h2>
-            <ul class="list-group mt-3">
-                <li class="list-group-item text-dark fw-semibold">Ukrainien - courant</li>
-                <li class="list-group-item text-dark fw-semibold">Russe - courant</li>
-                <li class="list-group-item text-dark fw-semibold">Anglais - avancé</li>
-                <li class="list-group-item text-dark fw-semibold">Francais - avancé</li>
-            </ul>
-
-<<<<<<< Updated upstream
     <!-- PRODUITS -->
     <div class="container mt-5" id="produits">
         <h2 class="">Produits</h2>
@@ -171,24 +117,14 @@
             <div class="col-md-6">
                 <div class="card flex-md-row mb-4 box-shadow h-md-300">
                     <div class="card-body d-flex flex-column align-items-start">
-<<<<<<< HEAD
                         <strong class="d-inline-block mb-2 text-secondary">La spécialité incontournable de notre maison</strong>
-=======
-                        <strong class="d-inline-block mb-2 text-secondary">Best-seller</strong>
->>>>>>> c0fc453 (accueil produits)
                         <h3 class="mb-0">
-                            <a class="text-dark" href="croix-de-savoie.html">Croix de savoie</a>
+                            <a class="text-dark" href="#">Croix de savoie</a>
                         </h3>
                         <div class="mb-1 text-muted">2,56 €</div>
-<<<<<<< HEAD
                         <p class="card-text mb-auto">Brioche moelleuse en forme de croix, un rappel à la Croix de
                             Savoie, fourrée de crème pâtissière parfumée à la vanille de Madagascar.</p>
                         <a href="croix-de-savoie.html">En savoir plus</a>
-=======
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                            lead-in to additional content.</p>
-                        <a href="croix-de-savoie.html">Voir plus</a>
->>>>>>> c0fc453 (accueil produits)
                     </div>
                     <img class="card-img-right flex-auto d-none d-md-block" src="images/croix-de-savoie.jpg"
                         alt="Image de croix de savoie" height="250px" width="200px">
@@ -199,17 +135,11 @@
                     <div class="card-body d-flex flex-column align-items-start">
                         <strong class="d-inline-block mb-2 text-secondary">Croissant traditionnel pur beurre</strong>
                         <h3 class="mb-0">
-                            <a class="text-dark" href="croissant.html">Croissant</a>
+                            <a class="text-dark" href="#">Croissant</a>
                         </h3>
                         <div class="mb-1 text-muted">1,40 €</div>
-<<<<<<< HEAD
                         <p class="card-text mb-auto">Succombez à la tentation de déguster un croissant tout droit sorti du four et disponible chaque matin dans nos établissements.</p>
                         <a href="croissant.html">En savoir plus</a>
-=======
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                            lead-in to additional content.</p>
-                        <a href="croissant.html">Voir plus</a>
->>>>>>> c0fc453 (accueil produits)
                     </div>
                     <img class="card-img-right flex-auto d-none d-md-block" src="images/croissant.jpg"
                         alt="Image de croissant" height="250px" width="190px">
@@ -222,56 +152,43 @@
                     <div class="card-body d-flex flex-column align-items-start">
                         <strong class="d-inline-block mb-2 text-muted">Généreux en chocolat (55% de cacao)</strong>
                         <h3 class="mb-0">
-                            <a class="text-dark" href="pain-au-chocolat.html">Pain au chocolat</a>
+                            <a class="text-dark" href="#">Pain au chocolat</a>
                         </h3>
                         <div class="mb-1 text-muted">1,50 €</div>
-<<<<<<< HEAD
                         <p class="card-text mb-auto">Fait maison et pur beurre.</p>
                         <a href="pain-au-chocolat.html">En savoir plus</a>
-=======
-                        <p class="card-text mb-auto">Viennoiserie constituée d'une pâte levée feuilletée pur beurre, enroulée sur deux barres de chocolat noir à 70%.</p>
-                        <a href="pain-au-chocolat.html">Voir plus</a>
->>>>>>> c0fc453 (accueil produits)
                     </div>
                     <img class="card-img-right flex-auto d-none d-md-block" src="images/pain-chocolat.jpg"
                         alt="Image de croissant" height="250px" width="300px">
                 </div>
             </div>
-=======
->>>>>>> Stashed changes
         </div>
+    </div>
 
     </div>
 
 
     <!-- FOOTER -->
+    <div class="mt-5 p-4 bg-dark text-center text-light">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-light">&copy; 2025 Morgane, Sandrine, Nicolas, Alina</p>
 
-    <div class="mt-5 p-4 bg-dark text-white text-center">
+            <a href="https://le-campus-numerique.fr/campus-annecy/" target="_blank"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="images/logo-campus-header.png" alt="logo de campus numerique" class="">
+            </a>
 
-        <!-- REASAUX SOCIALLES -->
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item "><a href="#top" class="nav-link px-2 text-light">Accueil</a></li>
+                <li class="nav-item"><a href="#apropos" class="nav-link px-2 text-light">A propos</a></li>
+                <li class="nav-item"><a href="#produits" class="nav-link px-2 text-light">Produits</a></li>
+                <li class="nav-item"><a href="catalogue.html" class="nav-link px-2 text-light">Catalogue</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-light">Contact</a></li>
+                <li class="nav-item"><a href="equipe.html" class="nav-link px-2 text-light">Team</a></li>
+            </ul>
 
-        <ul class="nav justify-content-center pb-3 mb-3">
-            <li class=""><img src="images/instagram.png" alt="Clicker sur instagram" width="50" height="50"></li>
-            <li class=""><img src="images/facebook.png" alt="Clicker sur facebook" width="50" height="50"></li>
-            <li class=""><img src="images/youtube.png" alt="Clicker sur youtube" width="90" height="50"></li>
-        </ul>
-
-        <div class="text-center pb-3 mb-3">
-            <p><a href="mailto:alina.dvornyk@le-campus-numerique.fr"
-                    target="_blank">alina.dvornyk@le-campus-numerique.fr</a></p>
-            <p class="h2">07 84 52 22 14</p>
-        </div>
-
-
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Compétances</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Expériences professionnelles</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Etudse</a></li>
-        </ul>
-        <p class="text-center text-light">&copy; 2025 Campus numerique, Alina</p>
+        </footer>
     </div>
-
-
 
 </body>
 
