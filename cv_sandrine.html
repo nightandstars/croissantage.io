@@ -49,7 +49,7 @@
     </nav>
     
 
-    <header class="header m-5">
+    <header id="header" class="header p-5">
         <div class="d-flex align-items-center flex-wrap">
             <div class="col-lg-8 col-md-6 col-12">
                 <h1 class="intro"><strong>Sandrine BARRUCAND</strong></h1>
@@ -57,10 +57,10 @@
                 <p class="intro">En <em>reconversion professionnelle</em> après dix années dans la <strong>communication</strong> et l'<strong>événementiel</strong> dans les secteurs de la <strong>production audiovisuelle</strong> et des technologies du numérique.<br>
                         Je me forme actuellement pour obtenir le titre RNCP 37873 "Concepteur développeur d'applications".</p> 
                 <nav>
-                    <a class="btn btn-primary m-3" href='#experiences'><strong>Expériences</strong></button>
-                    <a class="btn btn-primary m-3" href='#formations'><strong>Formations</a></button>
-                    <a class="btn btn-primary m-3" href='#competences'><strong>Compétences</strong></a>
-                    <a class="btn btn-primary m-3" href='#interets'><strong>Intérêts</strong></a>
+                    <button class="btn btn-primary m-3" onclick="window.location.href = '#experiences';"><strong>Expériences</strong></button>
+                    <button class="btn btn-primary m-3" onclick="window.location.href = '#formations';"><strong>Formations</strong></button>
+                    <button class="btn btn-primary m-3" onclick="window.location.href = '#competences';"><strong>Compétences</strong></button>
+                    <button class="btn btn-primary m-3" onclick="window.location.href = '#interets';"><strong>Intérêts</strong></button>
                 </nav> 
             </div>
             <div>
@@ -70,7 +70,7 @@
     </header>
  
     <main>
-        <section id="experiences" class="experiences m-3 pt-3">
+        <section id="experiences" class="experiences p-5 pt-0">
             <h2 class="pb-3">Expériences professionnelles</h2>
             <table id="tableau-experiences">
                 <thead>
@@ -104,7 +104,7 @@
             </table>
         </section>
 
-        <section id="formations" class="formations m-3 pt-3">
+        <section id="formations" class="formations p-5 pt-0">
             <h2 class="boutons-sandrine pb-3">Formations</h2>
             <table class="tableau-formations">
                 <thead>
@@ -134,7 +134,7 @@
             </table>
         </section>
         
-        <section id="competences" class="competences m-3 pt-3">
+        <section id="competences" class="competences p-5 pt-0">
             <h2 class="pb-3">Compétences</h2>
             <ul>
                 <li class="liste">Développement web : HTML, CSS, JavaScript, PHP, GIT</li>
@@ -145,24 +145,23 @@
             </ul>
         </section>
                         
-        <section id="interets" class="interets m-3 pt-3">
+        <section id="interets" class="interets p-5 pt-0">
             <h2 class="pb-3">Intérêts</h2>
                 <ol>
                     <li class="liste">Arts visuels et technologies</li>
                     <li class="liste">Numérique responsable : membre du comité de l'Institut du Numérique Responsable Suisse de 2021 à 2023</li>
-                    <li class="liste"><a class="lien-clair" href="hobby sandrine.html" target="_blank">Cyclotourisme et sports outdoor</a> : 1 an de voyage en 2023-2024 dans différents pays sur 4 continents</li>
+                    <li class="liste">Cyclotourisme et sports outdoor</a> : 1 an de voyage en 2023-2024 dans différents pays sur 4 continents</li>
                 </ol>
         </section>
     </main>
 
     <footer>
-        <div class="sandrine-footer m-5">
+        <div class="sandrine-footer p-5 pt-0">
             <a class="btn btn-primary m-3" href="https://www.linkedin.com/in/sandrine-barrucand/" target="_blank"><strong>Profil LinkedIn</strong></a>
         </div>
-        <div class="scrollup">
-            <button class="fleche" onclick="window.location.href = '#header';"><img src="images/icons8-arrow-32.png"></button>
-        </div>
     </footer>
+
+    <button class="btn btn-primary fixed-bottom" onclick="window.location.href = '#header';"><img src="images/icons8-arrow-32.png"></button>
 
 </body>
 </html>
