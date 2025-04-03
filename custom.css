@@ -59,3 +59,7 @@ p, li, button, table, a {
     text-align: center;
     border: 2px solid white;
   }
+  .m {
+    margin-top: 3 !important;
+    margin-bottom: 3;
+  }
