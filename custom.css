@@ -79,4 +79,16 @@ p, li, button, table, a {
   a{
     color: white;
   }
+  .table th, .table td {
+    color: #40949F;
+  }
   
+.btn-primary {
+  background-color:#106986;
+  border-color: #106986;
+}
+
+.btn-primary:hover {
+  background-color: #3C5862;
+  border-color: #3C5862;
+}
