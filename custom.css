@@ -63,3 +63,7 @@ p, li, button, table, a {
     margin-top: 3 !important;
     margin-bottom: 3;
   } 
+
+.opacity-9 {
+  opacity: .9;
+}
