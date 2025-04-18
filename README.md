@@ -13,10 +13,10 @@ Le site met en avant un catalogue de produits gourmands dans une ambiance cosy e
 ## Site en ligne
 [Accéder au site](https://nightandstars.github.io/croissantage.io/index.html)
 ## Technologies utilisées
-- HTML5 
-- CSS3 
+- HTML
+- CSS
 - Bootstrap 5 
-- JavaScript (optionnel)
+- JavaScript 
 ## Comment utiliser
 Pour visualiser le site en ligne, cliquez simplement sur le lien ci-dessus. 
 Pour l’exécuter en local :
