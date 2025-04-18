@@ -9,6 +9,7 @@ Le site met en avant un catalogue de produits gourmands dans une ambiance cosy e
 - **Catalogue** : Liste de tous les produits disponibles.
 - **Produit** : Page de détails pour chaque produit.
 - **Contact** : Formulaire de contact pour envoyer un message à l’entreprise.
+- **Team** : Présentation de l’équipe avec photos. En cliquant sur une photo, le **CV du membre** s’ouvre dans une nouvelle fenêtre.
 ## Site en ligne
 [Accéder au site](https://nightandstars.github.io/croissantage.io/index.html)
 ## Technologies utilisées
