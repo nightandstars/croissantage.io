@@ -62,109 +62,133 @@
 
     <!-- FLEXBOX -->
 
-    <div class="container-fluid bg-light vh-100 d-flex mt-5 shadow">
 
-        <!-- LEFT SIDE -->
-
-        <div class="d-flex flex-column flex-grow-1 bg-primary p-3 overflow-hidden overflow-scroll">
-            <h1 class=" text-center text-white">Développeuse web</h1>
-
-            <h2 class="text-white"> Compétences</h2>
-            <ul class="list-group  mx-auto width-auto ms-0 mt-3 mb-4">
-                <li class="list-group-item list-group-item-dark fw-bold"><i>Autonome</i></li>
-                <li class="list-group-item list-group-item-dark fw-bold"><i>Adaptive</i></li>
-                <li class="list-group-item list-group-item-dark fw-bold"><i>Dynamique</i></li>
-                <li class="list-group-item list-group-item-dark fw-bold"><i>Travail en équipe</i></li>
-                <li class="list-group-item list-group-item-dark fw-bold"><i>Sens des responsabilités</i></li>
-            </ul>
-
-            <hr class="hr" />
-
-            <h2 class="mt-3 text-white">Expériences Professionnelles</h2>
-            <table class="table table-striped table-dark mt-3 mb-4">
-                <thead>
-                    <tr>
-                        <th scope="col">Entreprise</th>
-                        <th scope="col">Periode</th>
-                        <th scope="col">Position</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Campus Numérique</td>
-                        <td>Mars 2025 - Decembre 2026</td>
-                        <td>Développeur avancé</td>
-                    </tr>
-                    <tr>
-                        <td>Emera</td>
-                        <td>Decembre 2023 - Septembre 2024</td>
-                        <td>ASH</td>
-                    </tr>
-                    <tr>
-                        <td>BUT Informatique</td>
-                        <td>Septembre 2023 - Juin 2024</td>
-                        <td>Etudiante</td>
-                    </tr>
-                    <tr>
-                        <td>8 à huit</td>
-                        <td>Aout 2023 - Septembre 2023</td>
-                        <td>Employe polyvalent</td>
-                    </tr>
-                </tbody>
-
-            </table>
-
-            <hr class="hr" />
-
-            <h2 class="mt-3 text-white">Etudes</h2>
-
-            <p class="h4 text-white mt-3">Campus numerique</p>
-            <p class="h6 text-white">Fromation développeur avancé Mars 2025 - Decembre 2026</p>
-
-            <p class="h4 text-white mt-3">IUT Annecy BUT Informatique</p>
-            <p class="h6 text-white">étudiante en 1er année à l'IUT Septembre 2023 - Juin 2024</p>
-
-            <p class="h4 text-white mt-3">Lycée Gabriel Fauré</p>
-            <p class="h6 text-white">Mai 2022 - Juin 2023</p>
-
-            
-            <p class="h4 text-white mt-3">L'école 27 de ville Soumy</p>
-            <p class="h6 text-white">2011 - 2022</p>
-
-        </div>
-
-
-
-        <!-- RIGHT SIDE -->
-
-        <div class="d-flex flex-grow-3 overflow-auto p-3 bg-info flex-column align-items-center ">
-            <img src="images/photo.png" alt="photo d'alina " class="rounded" style="height: 250px; width: 210px;">
-
-            <h2 >Alina Dvornyk</h2>
-            <p class="h2">20 ans</p>
-            <p class="h4"> Adresse : 10 Avenue </p>
-            <p class="h4"> Mail : <a href="mailto:alina.dvornyk@le-campus-numerique.fr"
-                    target="_blank">alina.dvornyk@le-campus-numerique.fr</a> </p>
-
-            <h2 class="mt-3">Hobbies</h2>
-            <ol class="list-group list-group-numbered mt-3">
-                <li class="list-group-item bg-light text-dark fw-semibold">Boxe thai</li>
-                <li class="list-group-item bg-light text-dark fw-semibold">Livres</li>
-                <li class="list-group-item bg-light text-dark fw-semibold">Cinema</li>
-            </ol>
-
-            <h2 class="mt-3">Langues</h2>
-            <ul class="list-group mt-3">
-                <li class="list-group-item text-dark fw-semibold">Ukrainien - courant</li>
-                <li class="list-group-item text-dark fw-semibold">Russe - courant</li>
-                <li class="list-group-item text-dark fw-semibold">Anglais - avancé</li>
-                <li class="list-group-item text-dark fw-semibold">Francais - avancé</li>
-            </ul>
-
-        </div>
-
+<div class="container mt-4">
+  <!-- HEADER -->
+  <div class="row mb-4">
+    <div class="col-md-4 text-center">
+      <img src="images/photo.png" class="img-fluid rounded mb-2" alt="Alina photo" style="max-height: 200px;">
+      <h2>Alina Dvornyk</h2>
+      <p class="mb-1">Développeuse web en formation</p>
+      <p class="mb-1">Annecy - 74000</p>
+      <p><a href="mailto:dvornyk.alina2912@gmail.com">dvornyk.alina2912@gmail.com</a></p>
+      <p>📞 +33 7 82 22 02 17</p>
     </div>
+    <div class="col-md-8">
+      <h3>Présentation</h3>
+      <p>
+        Ce qui m’a attirée vers le développement web, c’est cette impression magique de voir
+        des lignes de code se transformer en un site fonctionnel et vivant.
+        J’aime créer des interfaces solides, les améliorer à chaque projet, et repousser mes limites techniques.
+        Actuellement en formation de Concepteur Développeur d’Applications, je recherche un stage du 16 au 27 juin.
+      </p>
+    </div>
+  </div>
+
+  <!-- COMPETENCES TECHNIQUES ET SOFT SKILLS -->
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <h4>Compétences Techniques</h4>
+      <ul class="list-group">
+        <li class="list-group-item">HTML / CSS / Bootstrap / JavaScript / Vue.js / Angular</li>
+        <li class="list-group-item">PHP / Laravel / Java / Spring / Node.js / C# / WPF</li>
+        <li class="list-group-item">Linux (Debian, Ubuntu), Windows</li>
+        <li class="list-group-item">Git / Docker / VirtualBox / Raspberry Pi</li>
+        <li class="list-group-item">SQL / MySQL / PostgreSQL / Visual Paradigm</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h4>Soft Skills</h4>
+      <ul class="list-group">
+        <li class="list-group-item">Vision globale et approche logique</li>
+        <li class="list-group-item">Esprit structuré et goût pour la clarté</li>
+        <li class="list-group-item">Esprit d’équipe solidaire</li>
+        <li class="list-group-item">Autonome dans la résolution de problèmes</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- EXPERIENCES -->
+  <div class="mb-4">
+    <h4>Expérience Professionnelle</h4>
+    <div class="card mb-2">
+      <div class="card-body">
+        <h5>Emera – ASH</h5>
+        <p class="mb-1">Décembre 2023 – Septembre 2024</p>
+        <p>Assistance aux équipes soignantes</p>
+      </div>
+    </div>
+    <div class="card mb-2">
+      <div class="card-body">
+        <h5>8 à Huit – Employée polyvalente</h5>
+        <p class="mb-1">Août 2023 – Septembre 2023</p>
+        <p>Encaissement et relation client</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FORMATION -->
+  <div class="mb-4">
+    <h4>Formation</h4>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <strong>TP CDA (Niveau BAC+3)</strong> – Campus Numérique<br>
+        12 mois en alternance • Mars 2025 – 2026
+      </li>
+      <li class="list-group-item">
+        <strong>BUT Informatique</strong> – 1ère année complète • 2023 – 2024
+      </li>
+      <li class="list-group-item">
+        <strong>École n°27, Soumy (Ukraine)</strong> – Diplôme secondaire • 2010 – 2022
+      </li>
+    </ul>
+  </div>
+
+  <!-- PROJETS -->
+  <div class="mb-4">
+    <h4>Projets</h4>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <strong>Site croissantage.io</strong> – HTML / Bootstrap<br>
+        <a href="https://github.com/nightandstars/croissantage.io">Code GitHub</a> |
+        <a href="https://nightandstars.github.io/croissantage.io/">Démo</a>
+      </li>
+      <li class="list-group-item">
+        <strong>StraySpawn Website</strong> – JS dynamique<br>
+        <a href="https://alinad-2912.github.io/StraySpawn-web-site/">Démo</a>
+      </li>
+      <li class="list-group-item">
+        <strong>Template PHP</strong> – Site multi-page<br>
+        <a href="https://template-php.kesug.com/">Démo</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- LANGUES ET INTERETS -->
+  <div class="row mb-5">
+    <div class="col-md-6">
+      <h4>Langues</h4>
+      <ul class="list-group">
+        <li class="list-group-item">Français – avancé (B2)</li>
+        <li class="list-group-item">Anglais – avancé (B2)</li>
+        <li class="list-group-item">Ukrainien – courant (C1)</li>
+        <li class="list-group-item">Russe – courant (C1)</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h4>Centres d’intérêt</h4>
+      <ul class="list-group">
+        <li class="list-group-item">Boxe (incluant boxe thaïlandaise)</li>
+        <li class="list-group-item">Lecture</li>
+        <li class="list-group-item">Cinéma</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
 
 
     <!-- FOOTER -->
