@@ -110,3 +110,13 @@ p, li, button, table, a {
   border-radius: 50%;
   float: left;
 }
+.image-triste-boulanger {
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  max-width: 300px;
+}
+.important-text{
+  font-weight: bold;
+  color: red;
+}
