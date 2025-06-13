@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="custom.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Croissant</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="custom.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Croissant</title>
 </head>
+
 <body>
 
- <!-- NAVIGATION -->
- <nav class="navbar navbar-expand-lg navbar-light color-nav">
+  <!-- NAVIGATION -->
+  <nav class="navbar navbar-expand-lg navbar-light color-nav">
     <div class="container-fluid">
       <a class="navbar-brand text-light" href="index.html">Accueil</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -34,6 +40,9 @@
             <a class="nav-link text-light" href="catalogue.html">Catalogue</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link text-light" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link text-light" href="assets/pages_contact/contact.html">Contact</a>
           </li>
           <li class="nav-item">
@@ -48,56 +57,57 @@
     </div>
   </nav>
 
-    <div class="produit-titre m-5">
-        <h1>Croissant</h1>
+  <div class="produit-titre m-5">
+    <h1>Croissant</h1>
+  </div>
+  <div class="produit d-flex align-items-center me-5 flex-wrap">
+    <img class="photo-produit rounded px-5 col-lg-3 col-md-6 col-12" src="assets/images/croissant.jpg" alt="Croissant">
+    <div class="produit-info p-5 col-lg-7 col-md-6 col-12">
+      <div class="produit-prix">
+        <h2>Prix</h2>
+        <p>1,40 €</p>
+      </div>
+      <div class="produit-description">
+        <h2>Description</h2>
+        <p>Découvrez notre délicieux croissant pur beurre, une viennoiserie constituée d'une pâte levée feuilletée pur
+          beurre fabriqué dans la tradition, tout en rondeur et en harmonie.</p>
+      </div>
     </div>
-    <div class="produit d-flex align-items-center me-5 flex-wrap">
-        <img class="photo-produit rounded px-5 col-lg-3 col-md-6 col-12" src="assets/images/croissant.jpg" alt="Croissant">
-        <div class="produit-info p-5 col-lg-7 col-md-6 col-12">
-            <div class="produit-prix">
-                <h2>Prix</h2>
-                <p>1,40 €</p>
-            </div>
-            <div class="produit-description">
-                <h2>Description</h2>
-                <p>Découvrez notre délicieux croissant pur beurre, une viennoiserie constituée d'une pâte levée feuilletée pur beurre fabriqué dans la tradition, tout en rondeur et en harmonie.</p>
-            </div>
-        </div>
-    </div>
-    
-    <hr>
-    
-    <div class="produit-ingredients m-5">
-        <h2>Ingrédients</h2>
-        <ul>
-            <li>Farine T45</li>
-            <li>Farine T55</li>
-            <li>Sel</li>
-            <li>Sucre</li>
-            <li>Lait demi-écrémé</li>
-            <li>Levure fraîche</li>
-            <li>Beurre</li>
-            <li>Beurre de tourage</li>
-        </ul>
-    </div>
+  </div>
 
-     <!-- Footer -->
+  <hr>
+
+  <div class="produit-ingredients m-5">
+    <h2>Ingrédients</h2>
+    <ul>
+      <li>Farine T45</li>
+      <li>Farine T55</li>
+      <li>Sel</li>
+      <li>Sucre</li>
+      <li>Lait demi-écrémé</li>
+      <li>Levure fraîche</li>
+      <li>Beurre</li>
+      <li>Beurre de tourage</li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
 
   <div class="mt-5 p-4 bg-dark text-center text-light">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 text-light">&copy; 2025 Morgane, Sandrine, Nicolas, Alina</p>
+      <p class="col-md-4 mb-0 text-light">&copy; 2025 Morgane, Sandrine, Nicolas, Alina</p>
 
-        <a href="https://le-campus-numerique.fr/campus-annecy/" target="_blank"
-            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <img src="assets/images/logo-campus-header.png" alt="logo de campus numerique" class="">
-        </a>
+      <a href="https://le-campus-numerique.fr/campus-annecy/" target="_blank"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="assets/images/logo-campus-header.png" alt="logo de campus numerique" class="">
+      </a>
 
-        <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item "><a href="#top" class="nav-link px-2 text-light">Accueil</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">About</a></li>
-        </ul>
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item "><a href="#top" class="nav-link px-2 text-light">Accueil</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light">About</a></li>
+      </ul>
 
-      </footer>
+    </footer>
