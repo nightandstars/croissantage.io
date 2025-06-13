@@ -92,3 +92,21 @@ p, li, button, table, a {
   background-color: #3C5862;
   border-color: #3C5862;
 }
+.container1 {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10 px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+.container1 h2 {
+  margin-bottom: 10px;
+}
+.container1 p {
+  line-height: 1.4;
+}
+.image-croissant {
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+}
