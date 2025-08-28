@@ -1,4 +1,4 @@
-# Croissantage
+# 🥐 Croissantage
 **Croissantage** est un site vitrine pour une entreprise fictive spécialisée dans la vente de croissants et de pâtisseries. 
 Ce projet a été réalisé dans le cadre d'un exercice de conception d’un site web marchand.
 ## Objectif du projet
